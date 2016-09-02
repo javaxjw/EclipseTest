@@ -2,22 +2,21 @@ package Collection;
 
 import java.io.Serializable;
 /**
- * 猫
+ * 狗
  * @author KayWen
  *
  */
 
-public class Cat implements Serializable{
-	
+public class Dog implements Serializable{
 	private int age;
 	private double height;
 	
 	public void run(){
-		System.out.println("喵咪会跑哦！");
+		System.out.println("狗会跑了！");
 	}
 	
-	public void speak(){
-		System.out.println("喵咪会叫哦！");
+	public void loud(){
+		System.out.println("狗会叫了！");
 	}
 
 	public int getAge() {
