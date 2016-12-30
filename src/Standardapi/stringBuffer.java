@@ -9,7 +9,5 @@ public class stringBuffer {
 		sb.setCharAt(2, 'o');
 		System.out.println(sb);
 		
-		String sb_str = sb.toString();
-		
 	}
 }

@@ -14,7 +14,7 @@ public class GC {
 		
 		//虚引用引用DemoPojo对象
 //		WeakReference w = new WeakReference(d);
-		SoftReference s = new SoftReference(d);
+		SoftReference<DemoPojo> s = new SoftReference<>(d);
 		for(int i =0 ; i <100 ; i++)
 		{
 			new DemoPojo();

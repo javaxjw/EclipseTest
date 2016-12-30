@@ -1,6 +1,5 @@
 package Standardapi;
 
-import java.io.UnsupportedEncodingException;
 import java.util.Arrays;
 
 public class string {

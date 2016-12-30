@@ -1,6 +1,6 @@
 package Standardapi;
 
-public class DemoPojo implements Comparable{
+public class DemoPojo implements Comparable<DemoPojo>{
 		
 		private int id;
 		private String name;
@@ -23,12 +23,12 @@ public class DemoPojo implements Comparable{
 		}
 		
 		@Override
-		public int compareTo(Object o) {
+		public int compareTo(DemoPojo o) {
 				
-			DemoPojo p1 = (DemoPojo)o;
 			
 			
-			return p1.getId()> this.getId()? 1 :p1.getId()< this.getId()? -1:0;
+			
+			return o.getId()> this.getId()? 1 :o.getId()< this.getId()? -1:0;
 			}
 		
 		

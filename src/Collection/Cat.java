@@ -1,11 +1,6 @@
 package Collection;
 
 import java.io.Serializable;
-/**
- * 猫
- * @author KayWen
- *
- */
 
 public class Cat implements Serializable{
 	
@@ -13,7 +8,9 @@ public class Cat implements Serializable{
 	private double height;
 	
 	public void run(){
+		
 		System.out.println("喵咪会跑哦！");
+	
 	}
 	
 	public void speak(){
