@@ -30,7 +30,11 @@ public class Song implements Serializable{
 	public Song(String songName){
 		this.songName= songName;
 	}
-
+	
+	public void play(){
+		System.out.println("歌曲播放中！");
+	}
+	
 	public String getSongName() {
 		return songName;
 	}
